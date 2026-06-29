@@ -9,8 +9,7 @@ interface CreateUserFormProps {
   setUserWasCreated: Dispatch<SetStateAction<boolean>>;
 }
 
-const TOKEN =
-'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsic2hlaWRhYmR1bGFoYWQwQGdtYWlsLmNvbSJdLCJpc3MiOiJoZW5uZ2UtYWRtaXNzaW9uLWNoYWxsZW5nZSIsInN1YiI6ImNoYWxsZW5nZSJ9.-I4SpOyRqBcVXYC9tZ8V0wNapcXYKkDH39--Ek7UFAE';
+const TOKEN = '';
 
 function CreateUserForm({
   setUserWasCreated,
